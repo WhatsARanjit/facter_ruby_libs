@@ -1,0 +1,15 @@
+{
+  "name": "WhatsARanjit/facter_ruby_libs",
+  "version": "0.1.0",
+  "author": "WhatsARanjit",
+  "summary": "Facter migrated core functionality to C instead of Ruby.  As a result, many of the utils that were not meant to be public are now gone.  This module preserves the utils that were available in facter v2.4.6 to preserve custom facts that need them.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/WhatsARanjit/facter_ruby_libs",
+  "project_page": "https://github.com/WhatsARanjit/facter_ruby_libs",
+  "issues_url": "https://github.com/WhatsARanjit/facter_ruby_libs/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
